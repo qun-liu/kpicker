@@ -13,7 +13,7 @@ https://doi.org/10.1107/S2052252520007241
 2. conda config --add channels conda-forge
 3. conda create --name kpicker -c conda-forge python=3.9.13 cudatoolkit=11.2.2 cudnn=8.2.0.121
 4. conda activate kpicker 
-5. pip install tensorflow==2.10.0 mrcfile scikit-image==0.19.3 scikit-learn==1.1.3 
+5. pip install tensorflow==2.10.0 mrcfile scikit-image==0.19.3 scikit-learn==1.1.3 keras==2.10.0
 
 ## Test tensorflow and cuda
 python -c 'import tensorflow as tf; tf.test.is_gpu_available()'
